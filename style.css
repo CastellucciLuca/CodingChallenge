@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+.container{
+    background-image: url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-info{
+    display: block;
+    width: 70vw;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.container .container-info .icon {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.container .container-info .battery {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.container .container-info .battery-info {
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.container .container-info .battery-info p {
+    color: white;
+}
